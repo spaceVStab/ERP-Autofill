@@ -1,0 +1,19 @@
+{
+	"manifest_version":2,
+	"name":"ERP AutoFill",
+	"version":"1.0",
+	"permissions":["storage"],
+	"icons":{
+		"16":"icons/erp.png",
+		"48":"icons/erp.png",
+		"128":"icons/erp.png"
+	},
+	"browser_action":{
+		"default_popup":"popup.html"
+	},
+	"options_page":"options.html",
+	"content_scripts":[{
+		"matches":["https://erp.iitkgp.ernet.in/*"],
+		"js":["content.js"]
+	}]
+}
