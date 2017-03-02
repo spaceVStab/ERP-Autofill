@@ -22,3 +22,4 @@ Link and description for the chrome extension which can be used to fill up the f
 
 This can be further improved. Feel free to contribute.
 
+![Action gif](http://i.giphy.com/no3GNLXZqXaPm.gif)
