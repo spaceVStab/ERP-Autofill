@@ -13,7 +13,7 @@
 	},
 	"options_page":"options.html",
 	"content_scripts":[{
-		"matches":["https://erp.iitkgp.ernet.in/*"],
+		"matches":["https://erp.iitkgp.ac.in/*"],
 		"js":["content.js"]
 	}]
 }
