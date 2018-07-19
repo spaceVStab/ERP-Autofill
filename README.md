@@ -1,4 +1,4 @@
-#Important
+# Important
 
 Till now the extension stores your credentials in the local machine, which is not encrypted. So if you are using it, use at your own risk. Your credentials can be exposed to a person who knows where they are stored locally in the PC. I donot take any responsibility if your ERP account is however compromised. But proper Key Management Service will be applied further in future or you can develop it further.
 
@@ -7,16 +7,15 @@ Link and description for the chrome extension which can be used to fill up the f
 
 **This extension can be used for the auto-login of ERP of IITKGP only.
 
-#Installation
+# Installation
  
-1. Download the zip file from [here](https://drive.google.com/open?id=0B-dBsjHONeB9MkU4LVhmM3pBelU).
-2. Extract it.
-3. Type `chrome://extensions` in your Chrome/Chromium browser.
-4. Tick the `Developer mode` and then click `Load unpacked extension`.
-5. Select the directory where you had extracted the zip file. Done!
-6. Reset the `Developer mode` option to its initial value.
+1. Clone the repo
+2. Type `chrome://extensions` in your Chrome/Chromium browser.
+3. Tick the `Developer mode` and then click `Load unpacked extension`.
+4. Select the directory where you cloned the repo
+5. Reset the `Developer mode` option to its initial value.
 
-#Usage
+# Usage
 
 1. To save your credentials right click on the extension button appearing on the toolbar (erp icon) and click options.
 2. Enter the appropriate datas in the fields. Notice that the 3 questions should be exact the same asked to you during your ERP login.
